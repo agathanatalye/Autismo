@@ -1,0 +1,134 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autismo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Fonte padrão para o corpo do texto */
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Cor de fundo suave */
+            color: #333; /* Cor do texto */
+			text-align: center;/* Centraliza o texto */
+        }
+
+        h1 {
+            color: hsl(210, 44%, 50%); /* Azul */
+            font-size: 3em; /* Tamanho ajustado */
+            font-family: 'Courier New', Courier, monospace; /* Fonte monoespaçada */
+            font-weight: bold; /* Negrito */
+            text-align: center;/* Centraliza o texto */
+            margin: 20px 0; /* Margem superior e inferior */
+        }
+        
+        h2.custom-h2 {
+            font-family: 'Arial', sans-serif; /* Fonte do título */
+            color:  white; /* Cor do título */
+            font-size: 56px; /* Tamanho ajustado */
+            text-align: center;/* Centraliza o texto */
+            margin: 20px 0; /* Margem superior e inferior */
+        }
+
+        p.text-item {
+			color:  #00CED1	;
+            font-size: 18px; /* Tamanho do texto do parágrafo */
+            line-height: 1.6; /* Espaçamento entre linhas */
+            margin: 20px auto; /* Espaço em cima e embaixo do parágrafo */
+            max-width: 800px; /* Largura máxima do texto */
+            padding: 0 15px; /* Espaço interno */
+            text-align: justify; /* Justifica o texto */
+        }
+        
+        .container {
+            width: 100%;
+            text-align: center;
+            margin: 40px 0; /* Espaço acima e abaixo dos contêineres */
+        }
+
+        .image-container img,
+        .ajudar img {
+            width: 200%; /* Ajusta a largura da imagem */
+            height: auto; /* Mantém a proporção */
+            max-width: 800px; /* Limita a largura máxima */
+            display: block; /* Remove espaço abaixo da imagem */
+            margin: 10px auto; /* Centraliza a imagem */
+            border-radius: 10px; /* Bordas arredondadas */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+        }
+
+        .video-container {
+            display: flex; /* Define o contêiner como flex container */
+            justify-content: space-between; /* Espaça os vídeos igualmente */
+            gap: 10px; /* Espaço entre os vídeos */
+            flex-wrap: wrap; /* Permite que os vídeos envolvam se necessário */
+            margin: 20px auto; /* Espaço acima e abaixo dos vídeos */
+            padding: 0 15px; /* Espaço interno */
+            max-width: 1200px; /* Largura máxima do contêiner */
+        }
+
+        .video-container video {
+            width: 48%; /* Ajusta a largura do vídeo */
+            height: auto; /* Mantém a proporção do vídeo */
+            border-radius: 8px; /* Bordas arredondadas */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+        }
+
+        /* Estilo para dispositivos móveis */
+        @media (max-width: 768px) {
+            .video-container video {
+                width: 100%; /* Largura total para telas menores */
+                margin-bottom: 10px; /* Espaço inferior entre vídeos */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="autismo.png" alt="Imagem sobre autismo">
+    </div>
+
+    <div class="titulo">
+        <h1>Abril Mês do Autismo</h1>
+    </div>
+
+    <div class="image-container">
+        <img src="oquee.png" alt="Imagem sobre o que é autismo">
+    </div>
+
+    <div class="custom-h2">
+        <h2>Apoio para as famílias</h2>
+    </div>
+
+    <div class="container">
+        <p class="text-item">
+            Para ajudar as famílias de crianças com autismo, é importante ensinar os pais sobre como apoiar seus filhos. Também é muito útil participar de grupos de apoio, onde as famílias podem conversar com outras pessoas que passam pela mesma situação, compartilhar experiências e receber apoio.
+        </p>
+    </div>
+
+    <div class="custom-h2">
+        <h2>O que esperar no futuro?</h2>
+    </div>
+
+    <div class="container">
+        <p class="text-item">
+            Os cientistas estão sempre pesquisando para encontrar novas maneiras de ajudar pessoas com autismo. Além disso, é muito importante que todos aprendam a aceitar e entender as pessoas com autismo, para que elas se sintam incluídas e compreendidas na sociedade.
+        </p>
+    </div>
+	<div class="container">
+        <img src="ajudar.png"alt="Imagem 1" width="680">
+        <img src="conclusao.png" alt="Imagem 2" width="680">
+    </div>
+    <div class="video-container">
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeo.
+        </video>
+        <video controls>
+            <source src="video2.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeo.
+        </video>
+    </div>
+</body>
+</html>
